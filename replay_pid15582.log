@@ -1,0 +1,39 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 369 ciObject found
+instanceKlass org/jetbrains/org/objectweb/asm/ClassReader
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readElementValues (Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor;IZ[C)I 456234 1544556 233034 0 2992
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readElementValue (Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor;ILjava/lang/String;[C)I 2300276 350932 1135975 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readByte (I)I 0 0 177 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readUnsignedShort (I)I 1066 0 3652 0 176
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readInt (I)I 1024 0 63655 0 176
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readLong (I)J 0 0 1967 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readUTF8 (I[C)Ljava/lang/String; 1038 0 1570055 0 2288
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readUtf (I[C)Ljava/lang/String; 1026 0 716943 0 2224
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readUtf (II[C)Ljava/lang/String; 502 12638 233165 0 1712
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readClass (I[C)Ljava/lang/String; 61178 0 63585 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readConstantDynamic (I[C)Lorg/jetbrains/org/objectweb/asm/ConstantDynamic; 0 0 1 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/ClassReader readConst (I[C)Ljava/lang/Object; 1024 0 153018 0 5488
+ciMethodData org/jetbrains/org/objectweb/asm/ClassReader readUnsignedShort (I)I 2 3652 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 0 16 72 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 8 0x0 0x0 0x0 0x0 0x9 0x2 0x0 0x0 oops 0 methods 0
+ciMethod org/jetbrains/org/objectweb/asm/AnnotationVisitor visit (Ljava/lang/String;Ljava/lang/Object;)V 4096 0 297287 0 0
+ciMethod org/jetbrains/org/objectweb/asm/AnnotationVisitor visitEnum (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 4096 0 3911 0 0
+ciMethod org/jetbrains/org/objectweb/asm/AnnotationVisitor visitAnnotation (Ljava/lang/String;Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor; 2350 0 1020 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/AnnotationVisitor visitArray (Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor; 4096 0 43388 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/AnnotationVisitor visitEnd ()V 4100 0 179518 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/Type <init> (ILjava/lang/String;II)V 4202 0 453660 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getType (Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/Type; 38894 0 309429 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getElementType ()Lorg/jetbrains/org/objectweb/asm/Type; 140 0 8317 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getObjectType (Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/Type; 1086 0 543 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/Type getMethodType (Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/Type; 0 0 1 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/Type getTypeInternal (Ljava/lang/String;II)Lorg/jetbrains/org/objectweb/asm/Type; 130 0 620859 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getClassName ()Ljava/lang/String; 6 0 499 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getInternalName ()Ljava/lang/String; 0 0 277267 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getSort ()I 0 0 405301 0 0
+ciMethod org/jetbrains/org/objectweb/asm/Type getDimensions ()I 140 0 8319 0 0
+ciMethodData org/jetbrains/org/objectweb/asm/ClassReader readUtf (II[C)Ljava/lang/String; 2 5974753 orig 80 1 0 0 0 0 0 0 0 0 0 0 0 0 16 72 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 33 0x160007 0x37881 0xa8 0x5d68ff 0x290007 0xea76 0x38 0x5c622c 0x390003 0x5d9349 0x50 0x8000000600450007 0x6 0x38 0xea41 0x640003 0xea3e 0x18 0x920003 0x5dc976 0xffffffffffffff70 0x9d0002 0x31aaf 0x0 0x0 0x0 0x0 0x9 0x4 0x0 0x0 0x0 0x0 oops 0 methods 0
+ciMethod org/jetbrains/org/objectweb/asm/tree/AnnotationNode <init> (Ljava/lang/String;)V 1024 0 82122 0 -1
+ciMethod org/jetbrains/org/objectweb/asm/tree/AnnotationNode visit (Ljava/lang/String;Ljava/lang/Object;)V 627030 0 319536 0 0
+ciMethod org/jetbrains/org/objectweb/asm/tree/AnnotationNode visitEnum (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 4096 0 3174 0 0
+ciMethod org/jetbrains/org/objectweb/asm/tree/AnnotationNode visitAnnotation (Ljava/lang/String;Ljava/lang/String;)Lorg/jetbrains/org/objectweb/asm/AnnotationVisitor; 602 0 301 0 0
+ciMethodData org/jetbrains/org/objectweb/asm/ClassReader readUTF8 (I[C)Ljava/lang/String; 2 1570055 orig 80 0 0 0 0 0 0 0 0 0 0 0 0 0 16 72 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 data 33 0x20005 0x0 0x0 0x13da6d370 0x17edd4 0x0 0x0 0x70007 0x18 0x40 0x17f556 0xb0007 0x17f722 0x20 0x18 0x130005 0x17e900 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x0 0x9 0x3 0x0 0x0 0x0 oops 1
