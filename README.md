@@ -40,12 +40,8 @@ El proyecto está dividido en las siguientes capas:
 
 ## Proximos pasos
 
-- **Jetpack Compose** fue elegido para la interfaz declarativa moderna y eficiente.
-- **Room** permite persistencia local estructurada y segura.
-- **Koin** se utilizó por su facilidad de configuración para DI.
-- **MVVM + Clean Architecture** permite desacoplamiento, testabilidad y mantenimiento sencillo.
-- Se utiliza un modelo de datos limpio (`Game`) y mapeadores entre DTO, entidad y dominio.
-- **Eliminación lógica** en lugar de física para mantener integridad de datos y permitir recuperación.
+- **Components** Refactorizar el Scaffold y su barra superior en un componente reutilizable. Esto permitirá centralizar su configuración y estilo, facilitando su mantenimiento y garantizando consistencia visual entre las distintas pantallas.
+- **Utils** Incorporar utilidades que ejemplifiquen el propósito de este módulo. Un caso sugerido es un helper para la lógica de filtrado, con funciones reutilizables que abstraigan la lógica repetitiva y promuevan un código más limpio y desacoplado.
 
 ---
 
