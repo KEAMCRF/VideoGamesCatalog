@@ -7,15 +7,15 @@ import com.cinepolis.videogamesapp.domain.model.Game
 open class GameRepository(
     private val apiService: ApiService,
     private val gameDao: GameDao
-) {
+) : IGameRepository {
 
-    open suspend fun fetchAndStoreGames() {
+    override suspend fun fetchAndStoreGames() {
         val remoteGames = apiService.getAllGames()
         val entities = remoteGames.map { it.toEntity() }
         gameDao.insertAll(entities)
     }
 
-    open suspend fun getAllGames(): List<Game> {
+    override suspend fun getAllGames(): List<Game> {
         return gameDao.getAll().map { it.toDomain() }
     }
 
@@ -27,15 +27,15 @@ open class GameRepository(
         return gameDao.searchByGenre(query).map { it.toDomain() }
     }
 
-    suspend fun getById(id: Int): Game? {
+    override suspend fun getById(id: Int): Game? {
         return gameDao.getById(id)?.toDomain()
     }
 
-    suspend fun updateGame(game: Game) {
+    override suspend fun updateGame(game: Game) {
         gameDao.update(game.toEntity())
     }
 
-    suspend fun deleteGameById(id: Int) {
+    override suspend fun deleteGameById(id: Int) {
         gameDao.deleteById(id)
     }
 }

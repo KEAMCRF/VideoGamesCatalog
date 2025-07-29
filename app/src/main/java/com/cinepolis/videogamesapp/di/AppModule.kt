@@ -3,6 +3,7 @@ package com.cinepolis.videogamesapp.di
 import android.app.Application
 import androidx.room.Room
 import com.cinepolis.videogamesapp.data.GameRepository
+import com.cinepolis.videogamesapp.data.IGameRepository
 import com.cinepolis.videogamesapp.data.local.GameDatabase
 import com.cinepolis.videogamesapp.data.remote.ApiService
 import com.cinepolis.videogamesapp.domain.usecases.GetGamesUseCase
@@ -31,7 +32,12 @@ val appModule = module {
     single { get<GameDatabase>().gameDao() }
 
     // Repository
-    single { GameRepository(get(), get()) }
+    single<IGameRepository> {
+        GameRepository(
+            apiService = get(),
+            gameDao = get()
+        )
+    }
 
     // UseCase
     single { GetGamesUseCase(get()) }

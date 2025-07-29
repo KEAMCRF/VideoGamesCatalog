@@ -1,10 +1,10 @@
 package com.cinepolis.videogamesapp.domain.usecases
 
 import com.cinepolis.videogamesapp.domain.model.Game
-import com.cinepolis.videogamesapp.data.GameRepository
+import com.cinepolis.videogamesapp.data.IGameRepository
 
 open class GetGamesUseCase(
-    private val repository: GameRepository
+    private val repository: IGameRepository
 ) {
 
     suspend fun getAllGames(): List<Game> {
